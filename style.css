@@ -1,3 +1,46 @@
-#menu-princiapal{
-    margin-top: 500px;
+body {
+ font-family: "Poppins", sans-serif;
+    
+  }
+
+
+.container {
+    display: flex;
+    margin-left: 400PX;
+    margin-top: 300px;
+    
+
+}
+
+.card-body {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-text {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.card_disp {
+    
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.card_equip {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.card_total {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+
 }

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Iventario Imtech</title>
+    <title>Inventario Imtech</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -23,6 +23,8 @@
         <!-- place navbar here -->
     </header>
     <main>
+
+    
         <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Imtech</a>
@@ -56,28 +58,29 @@
             </div>
         </nav>
         <div class="container">
-            <div class="card_disp" style="width: 18rem;">
-            <img src="pics/switch.png" class="card-img-top" alt="pics/switch.png">
+
+            <div class="card_disp" >
+            
                 <div class="card-body">
                     <h5 class="card-title">Dispositivos</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">ver dispositivos</a>
+                    <p class="card-text"></p>
+                    <a href="dispositivos.php" class="btn btn-primary">ver dispositivos</a>
                 </div>
             </div>
-            <div class="card_equip" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <div class="card_equip">
+            
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">ver dispositivos</a>
+                    <h5 class="card-title">Equipamento</h5>
+                    <p class="card-text"></p>
+                    <a href="equipamentos.php" class="btn btn-primary   ">ver equipamento</a>
                 </div>
             </div>
-            <div class="card_total" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <div class="card_total" >
+            
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">ver dispositivos</a>
+                    <h5 class="card-title">Inventario Total</h5>
+                    <p class="card-text"></p>
+                    <a href="inventario.php" class="btn btn-success">ver invetario</a>
                 </div>
             </div>
 
