@@ -15,23 +15,26 @@
 </head>
 
 <body class="d-flex align-items-center min-vh-100">
+
+
     <div class="container">
-        <form class="form-signin text-center">
+        <form class="form-signin text-center" method="POST" action="conexao.php">
             <img class="mb-4" src="/pics/imtech-logo.png" alt="logo Imtech" width="150" height="150">
             <h1 class="h3 mb-3 font-weight-normal">Faça login</h1>
-            <label for="inputEmail" class="visually-hidden">Endereço de email</label>
-            <input type="email" id="inputEmail" class="form-control-sm mb-3" placeholder="Seu email" required autofocus>
+            <label for="inputUsername" class="visually-hidden">Nome do Usuário</label>
+            <input type="text" id="username" name="username" class="form-control-sm mb-3" placeholder="Username" required autofocus>
             <label for="inputPassword" class="visually-hidden">Senha</label><br>
-            <input type="password" id="inputPassword" class="form-control-sm mb-1" placeholder="Senha" required>
+            <input type="password" name="senha" id="inputPassword" class="form-control-sm mb-1" placeholder="Senha" required>
             <div class="checkbox mb-3">
                 <label>
                     <input type="checkbox" value="remember-me"> Lembrar de mim
                 </label>
             </div>
-            <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+            <button class="btn btn-lg btn-primary btn-block" type="submit" value="entrar" id="entrar" name="entrar">Login</button>
             <p class="mt-5 mb-3 text-muted">© 2004-2024</p>
         </form>
     </div>
+   
 
     <!-- Bibliotecas JavaScript do Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
@@ -39,3 +42,4 @@
 </body>
 
 </html>
+
